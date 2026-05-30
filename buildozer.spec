@@ -1,4 +1,4 @@
-app]
+[app]
 title = Grind
 package.name = grind
 package.domain = org.jawaharmuthu
