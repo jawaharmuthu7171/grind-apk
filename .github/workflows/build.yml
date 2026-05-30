@@ -15,7 +15,7 @@ jobs:
 
     - name: Build APK
       run: |
-        buildozer android debug
+        echo "y" | buildozer android debug
       env:
         BUILD_ALLOW_ROOT: 1
 
@@ -24,3 +24,4 @@ jobs:
       with:
         name: grind-apk
         path: bin/*.apk
+
